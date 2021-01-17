@@ -4,6 +4,14 @@
 const URL = "https://jsonplaceholder.typicode.com/posts/";
 
 const userdataButton = document.getElementById("userdata");
+const main = document.querySelector("main");
+
+//titleタグの作成
+function CreateTitle(item) {
+  const article = document.createElement("article");
+  article.innerText = item["title"];
+  return article;
+}
 
 userdataButton.addEventListener("click", async () => {
   const res = await fetch(URL);
@@ -12,5 +20,7 @@ userdataButton.addEventListener("click", async () => {
     // console.log(item);
     // console.log(item["userId"].toString());
     console.log(item["title"]);
+    const article = CreateTitle(item);
+    main.appendChild(article);
   });
 });
