@@ -1,3 +1,11 @@
-main {
-  background-color: rgb(170, 204, 199);
+@charset "UTF-8";
+main article:nth-child(odd) {
+  /*奇数*/
+  background-color: #adb3cc;
 }
+
+main article:nth-child(even) {
+  /*偶数*/
+  background-color: #aaccc7;
+}
+/*# sourceMappingURL=style.css.map */

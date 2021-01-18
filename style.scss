@@ -1,0 +1,10 @@
+main {
+  article:nth-child(odd) {
+    /*奇数*/
+    background-color: rgb(173, 179, 204);
+  }
+  article:nth-child(even) {
+    /*偶数*/
+    background-color: rgb(170, 204, 199);
+  }
+}
