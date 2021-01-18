@@ -8,4 +8,8 @@ main article:nth-child(even) {
   /*偶数*/
   background-color: #aaccc7;
 }
+
+footer {
+  margin: 20px 0 0 0;
+}
 /*# sourceMappingURL=style.css.map */
