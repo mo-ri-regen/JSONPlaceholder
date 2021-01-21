@@ -3,7 +3,7 @@
 
 const URL = "https://jsonplaceholder.typicode.com/posts/";
 
-const textArea = document.getElementsByName("textarea");
+const textArea = document.getElementsByName("textarea"); //配列で返ってくる
 const titleListButton = document.getElementById("titleList");
 const addTitleButton = document.getElementById("addTitle");
 const main = document.querySelector("main");
