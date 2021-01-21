@@ -1,4 +1,27 @@
 @charset "UTF-8";
+h1 {
+  text-align: center;
+}
+
+form {
+  width: 100%;
+}
+
+form textarea {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+form button {
+  display: block;
+  margin: 0 auto;
+}
+
+main {
+  text-align: center;
+}
+
 main article:nth-child(odd) {
   /*奇数*/
   background-color: #adb3cc;

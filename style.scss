@@ -1,4 +1,20 @@
+h1 {
+  text-align: center;
+}
+form {
+  width: 100%;
+  textarea {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  button {
+    display: block;
+    margin: 0 auto;
+  }
+}
 main {
+  text-align: center;
   article:nth-child(odd) {
     /*奇数*/
     background-color: rgb(173, 179, 204);

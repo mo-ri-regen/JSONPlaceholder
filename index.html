@@ -12,8 +12,11 @@
         <!-- target="_blank"で別タブで開く(脆弱性の問題あるためrel="noopener noreferrer"追加) -->
         <h1><a href="https://jsonplaceholder.typicode.com/" target="_blank" rel="noopener noreferrer">JsonPlaceFolder</a></h1>
     </header>
-    <button type="button" id="titleList">titleList</button>
-    <button type="button" id="addTitle">AddTitle</button>
+    <form>
+        <textarea name="textarea" class="title" row="4" column="40" placeholder="タイトルを入力してください。"></textarea>
+        <button type="button" id="titleList">titleList</button>
+        <button type="button" id="addTitle">AddTitle</button>
+    </form>
     <main></main>
     <footer>Copyright 2021</footer>
     <script type="text/javascript" src="./js/index.js"></script>
