@@ -3,6 +3,7 @@
 
 const URL = "https://jsonplaceholder.typicode.com/posts/";
 
+const textArea = document.getElementsByName("textarea");
 const titleListButton = document.getElementById("titleList");
 const addTitleButton = document.getElementById("addTitle");
 const main = document.querySelector("main");
@@ -33,7 +34,7 @@ titleListButton.addEventListener("click", async () => {
 addTitleButton.addEventListener("click", async () => {
   try {
     const data = {
-      title: "aa",
+      title: textArea[0].value,
       // body: 1,
       // userId: 1,
     };
